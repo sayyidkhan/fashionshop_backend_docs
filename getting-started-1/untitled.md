@@ -32,7 +32,7 @@ npm run start:prod
 ### API URL
 
 By default it will serve "http://localhost:5000/".  
-If you would like to change the localhost which it is serving you can proceed to the Project Config page.
+If you would like to change the localhost which it is serving you can proceed to the [Project Config](../configuration/project-config.md) page.
 
 
 
