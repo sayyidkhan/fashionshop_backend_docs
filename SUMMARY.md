@@ -7,6 +7,10 @@
 * [Project Setup](getting-started-1/getting-started.md)
 * [Start The Application](getting-started-1/untitled.md)
 
+## Project Testcases
+
+* [Run the Testcases](project-testcases/run-the-testcases.md)
+
 ## Configuration
 
 * [Project Configuration](configuration/project-config.md)
@@ -14,7 +18,11 @@
 
 ## Project Structure
 
-* [Untitled](project-structure/untitled.md)
+* [Software Design](project-structure/untitled.md)
+
+## Database
+
+* [Database Structure & Integrity](database/database-structure-and-integrity.md)
 
 ## Resources
 
