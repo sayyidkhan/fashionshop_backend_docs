@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Hello World](README.md)
+* [Overview](README.md)
+* [Getting Started](getting-started.md)
 
