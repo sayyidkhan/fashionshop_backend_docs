@@ -66,7 +66,12 @@ This is the general high level overview how data flows and passed from each obje
 
 **Class Diagram For Product API**
 
-The data flow will be depicted using class class diagram.
+The data flow will be depicted using class **class diagram.**
+
+![class diagram for product api only](../.gitbook/assets/product.jpg)
+
+  
+**Class Diagram For Product Pagination API**
 
 \*\*\*\*
 
