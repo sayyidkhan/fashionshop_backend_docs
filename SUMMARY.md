@@ -10,13 +10,13 @@
 ## Configuration
 
 * [Project Configuration](configuration/project-config.md)
-* [Untitled](configuration/untitled.md)
-
-## Resources
-
-* [Install Node Version Manager](resources/install-node-version-manager.md)
+* [Database Configuration](configuration/untitled.md)
 
 ## Project Structure
 
 * [Untitled](project-structure/untitled.md)
+
+## Resources
+
+* [Install Node Version Manager](resources/install-node-version-manager.md)
 

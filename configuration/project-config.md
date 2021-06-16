@@ -1,10 +1,16 @@
 ---
 description: >-
   Project configuration of the entire project is governed using the "default.js"
-  file.
+  file in the config directory.
 ---
 
 # Project Configuration
+
+## Directory
+
+**Directory to file from root directory:**
+
+config/default.js
 
 ## JSON Structure
 
