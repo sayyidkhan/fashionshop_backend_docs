@@ -4,15 +4,19 @@
 
 ## Getting Started <a id="getting-started-1"></a>
 
-* [Getting Started](getting-started-1/getting-started.md)
-* [Untitled](getting-started-1/untitled.md)
+* [Project Setup](getting-started-1/getting-started.md)
+* [Start The Application](getting-started-1/untitled.md)
 
----
+## Configuration
 
-* [Config](config.md)
-* [Project Config](project-config.md)
+* [Project Configuration](configuration/project-config.md)
+* [Untitled](configuration/untitled.md)
 
-## Misc
+## Resources
 
-* [Install Node Version Manager](misc/install-node-version-manager.md)
+* [Install Node Version Manager](resources/install-node-version-manager.md)
+
+## Project Structure
+
+* [Untitled](project-structure/untitled.md)
 

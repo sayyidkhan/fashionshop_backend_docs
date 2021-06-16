@@ -2,7 +2,7 @@
 description: How to get started with using fashionshop backend api endpoint.
 ---
 
-# Getting Started
+# Project Setup
 
 ### Get the project from Github
 
@@ -25,7 +25,7 @@ We have to perform a series of installation and preparation of the system before
 1**.Navigate into the folder directory "fashionshop\_backend" and start a terminal or command line on the directory.**
 
 2.**Ensure that you have Node.js installed on your computer. It is recommended that you use Node.js version 12.xx as this was the Node.js which was used to setup the project.**  
-[Click here to navigate to the "install node version manager" page](../misc/install-node-version-manager.md)_\(link will not open in new tab\)_
+[Click here to navigate to the "install node version manager" page](../resources/install-node-version-manager.md)_\(link will not open in new tab\)_
 
 3. **Navigate into the config directory and open "default.js" file on the terminal or IDE.**
 
@@ -81,6 +81,14 @@ node insert_script.js
 _This will delete any existing fashionshop database and re-create a new one then inserting the 500 records into the database. You may re-run this command again in the future to re-initalise the records again._
 
 ![](../.gitbook/assets/image.png)
+
+4. _**Navigate back to the root directory of the project and run the command below.**_
+
+This wil install all project 
+
+```bash
+npm install
+```
 
 _**You have successfully setup the environment in order for you to run the fashionshop backend api project. Navigate to**_ 
 
