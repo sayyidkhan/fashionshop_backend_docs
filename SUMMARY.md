@@ -9,7 +9,9 @@
 
 ## Project Testcases
 
-* [Run Testcases](project-testcases/run-the-testcases.md)
+* [Run Testcases Locally](project-testcases/run-the-testcases.md)
+* [Run Testcases using CI](project-testcases/run-testcases-using-ci.md)
+* [Ignoring files For testing](project-testcases/ignoring-files-for-testing.md)
 
 ## API
 
@@ -20,6 +22,7 @@
 
 * [Project Configuration](configuration/project-config.md)
 * [Database Configuration](configuration/untitled.md)
+* [CI Configuration](configuration/ci-configuration.md)
 
 ## Project Structure
 
