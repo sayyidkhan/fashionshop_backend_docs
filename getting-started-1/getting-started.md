@@ -80,7 +80,7 @@ node insert_script.js
 
 _This will delete any existing fashionshop database and re-create a new one then inserting the 500 records into the database. You may re-run this command again in the future to re-initalise the records again._
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 4. _**Navigate back to the root directory of the project and run the command below.**_
 
