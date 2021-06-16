@@ -9,7 +9,12 @@
 
 ## Project Testcases
 
-* [Run the Testcases](project-testcases/run-the-testcases.md)
+* [Run Testcases](project-testcases/run-the-testcases.md)
+
+## API
+
+* [API Documentation](api/api-documentation.md)
+* [Swagger API](api/swagger-api.md)
 
 ## Configuration
 
