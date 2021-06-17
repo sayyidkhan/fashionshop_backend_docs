@@ -420,7 +420,8 @@ Accepts
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Displays a list of all the products from the database with price filter\(s\) + sorted by choice\(s\) selected.
+Displays a list of all the products from the database with price filter\(s\) + sorted by choice\(s\) selected.  
+Datatype received: \[ ProductDTO \]
 {% endapi-method-response-example-description %}
 
 ```
