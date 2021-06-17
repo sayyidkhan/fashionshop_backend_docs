@@ -98,9 +98,9 @@ Object Received: ProductDTO
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=400 %}
+{% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Invalid Input
+No Product\(s\) Found
 {% endapi-method-response-example-description %}
 
 ```
