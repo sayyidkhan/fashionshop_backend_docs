@@ -22,10 +22,12 @@ Navigate to the package.json, here we have the jest configuration. we have added
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
+    /* add or remove file here */
     "coveragePathIgnorePatterns" : [
       "<rootDir>/database_init.ts",
       "<rootDir>/main.ts"
     ],
+    /* add or remove file here */
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],

@@ -15,7 +15,9 @@
 
 ## API
 
-* [API Documentation](api/api-documentation.md)
+* [API Documentation](api/api-documentation/README.md)
+  * [Product API](api/api-documentation/product-api.md)
+  * [DTO used in the Application](api/api-documentation/dto-used-in-the-application.md)
 * [Swagger API](api/swagger-api.md)
 
 ## Configuration

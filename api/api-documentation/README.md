@@ -7,13 +7,17 @@ For this project the API endpoints have been broken down into two API endpoints 
 * product API endpoints
 * product pagination API endpoint
 
-## Product API Endpoints
+
+
+
+
+## Product API
 
 All fields are optional. New fiddle setting will be used if no data provided.
 
-{% api-method method="get" host="https://jsfiddle.net" path="/api/post/:framework/:version/dependencies/:dependency\_list/" %}
+{% api-method method="get" host="http://localhost:5000" path="/product" %}
 {% api-method-summary %}
-
+Get All Product
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -113,4 +117,6 @@ a comma separated list of external resources
 
 [http://jsfiddle.net/3Lwgk4c5/](http://jsfiddle.net/3Lwgk4c5/)
 {% endhint %}
+
+
 
