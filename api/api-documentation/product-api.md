@@ -170,22 +170,22 @@ Get All Products + Sorting
 {% endapi-method-summary %}
 
 {% api-method-description %}
-1. optional to pass {orderby\_name} -&gt; if passed as PARAM\_QUERY will sort based on possible values  
-2. optional to pass {orderby\_price} -&gt; if passed as PARAM\_QUERY will sort based on possible values  
+1. optional to pass {orderByName} -&gt; if passed as PARAM\_QUERY will sort based on possible values  
+2. optional to pass {orderByPrice} -&gt; if passed as PARAM\_QUERY will sort based on possible values  
 3. if multiple sort is specified, then it will be sorted by name then price.  
-4. if other values is provided to orderby\_name / orderby\_price, it will disregard the value and sort it in ascending order.
+4. if other values is provided to orderByName / orderByPrice, it will disregard the value and sort it in ascending order.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
-{% api-method-parameter name="orderby\_price" type="string" required=false %}
+{% api-method-parameter name="orderByPrice" type="string" required=false %}
 Accepts  
 `asc` sort by Ascending Order  
 `desc` sort by Descending Order
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="orderby\_name" type="string" required=false %}
+{% api-method-parameter name="orderByName" type="string" required=false %}
 Accepts  
 `asc` sort by Ascending Order  
 ****`desc` ****sort by ****Descending Order
@@ -230,10 +230,10 @@ Object Received: ProductDTO \[\]
 {% hint style="info" %}
 **Example:**
 
-[http://localhost:5000/sortby?orderby\_price=desc](http://localhost:5000/sortby?orderby_price=desc)
+[http://localhost:5000/product/sortby?orderByPrice=asc](http://localhost:5000/product/sortby?orderByPrice=asc)
 {% endhint %}
 
-{% api-method method="get" host="http://localhost:5000" path="/filterby\_id/{id}" %}
+{% api-method method="get" host="http://localhost:5000" path="/filterById/{id}" %}
 {% api-method-summary %}
 Get One Product by ID Only
 {% endapi-method-summary %}
@@ -284,13 +284,12 @@ No Product\(s\) Found.
 {% hint style="info" %}
 **Example:**
 
-[http://localhost:5000/product/filterby\_id/20](http://localhost:5000/product/filterby_id/20
-)
+[http://localhost:5000/product/filterById/20](http://localhost:5000/product/filterById/20)
 {% endhint %}
 
 
 
-{% api-method method="get" host="http://localhost:5000" path="/filterby\_price" %}
+{% api-method method="get" host="http://localhost:5000" path="/filterByPrice" %}
 {% api-method-summary %}
 Get Products by filtering price + sorting
 {% endapi-method-summary %}
@@ -299,10 +298,10 @@ Get Products by filtering price + sorting
 get products by filtering price \(within min - max range\) or \(&gt;= min\) or \(&lt;= max\) then sorting  
 1. {minprice} - OPTIONAL\_PARAMETER, query will still work w/o min price input  
 2. {maxprice\) - OPTIONAL\_PARAMETER, query will still work w/o max price input  
-3. optional to pass {orderby\_name} -&gt; query will still work w/o inputing min or max value  
-4. optional to pass {orderby\_price} -&gt; query will still work w/o input min or max value   
+3. optional to pass {orderByName} -&gt; query will still work w/o inputing min or max value  
+4. optional to pass {orderByPrice} -&gt; query will still work w/o input min or max value   
 5. if multiple sort is specified, then it will be sorted by name then price.  
-6. if other values is provided to orderby\_name / orderby\_price, it will disregard the value and sort it in ascending order.
+6. if other values is provided to orderByName / orderByPrice, it will disregard the value and sort it in ascending order.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -316,13 +315,13 @@ minimum price - cannot be less than 0
 max maximum price - cannot be more than 9999 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="orderby\_price" type="string" required=false %}
+{% api-method-parameter name="orderByPrice" type="string" required=false %}
 Accepts  
 `asc` sort by Ascending Order  
 `desc` sort by Descending Order
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="orderby\_name" type="string" required=false %}
+{% api-method-parameter name="orderByName" type="string" required=false %}
 Accepts  
 `asc` sort by Ascending Order  
 ****`desc` ****sort by ****Descending Order
@@ -381,11 +380,10 @@ No Product\(s\) found.
 {% hint style="info" %}
 **Example:**
 
-[http://localhost:5000/product/filterby\_price?minprice=10&maxprice=20](http://localhost:5000/product/filterby_price?minprice=10&maxprice=20
-)
+[http://localhost:5000/product/filterByPrice?minprice=10&maxprice=20](http://localhost:5000/product/filterByPrice?minprice=10&maxprice=20)
 {% endhint %}
 
-{% api-method method="get" host="http://localhost:5000" path="/filterby\_name/{name}" %}
+{% api-method method="get" host="http://localhost:5000" path="/filterByName/{name}" %}
 {% api-method-summary %}
 Get Products by filtering name + sorting
 {% endapi-method-summary %}
@@ -393,10 +391,10 @@ Get Products by filtering name + sorting
 {% api-method-description %}
 get products by filtering name using the like clause + sorting  
 1. {name\) - REQUIRED PARAMETER, query will search for name of product and returns the product name which has the text name in it  
-2. optional to pass {orderby\_name} -&gt; query will still work w/o inputing min or max value  
-3. optional to pass {orderby\_price} -&gt; query will still work w/o input min or max value   
+2. optional to pass {orderByName} -&gt; query will still work w/o inputing min or max value  
+3. optional to pass {orderByPrice} -&gt; query will still work w/o input min or max value   
 4. if multiple sort is specified, then it will be sorted by name then price.  
-5. if other values is provided to orderby\_name / orderby\_price, it will disregard the value and sort it in ascending order.
+5. if other values is provided to orderByName / orderByPrice , it will disregard the value and sort it in ascending order.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -408,13 +406,13 @@ name of the product -&gt; will be filtered using like clause
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="orderby\_price" type="string" required=false %}
+{% api-method-parameter name="orderByPrice" type="string" required=false %}
 Accepts  
 `asc` sort by Ascending Order  
 `desc` sort by Descending Order
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="orderby\_name" type="string" required=false %}
+{% api-method-parameter name="orderByName" type="string" required=false %}
 Accepts  
 `asc` sort by Ascending Order  
 ****`desc` ****sort by ****Descending Order
@@ -475,8 +473,7 @@ No Product\(s\) found.
 {% hint style="info" %}
 **Example:**
 
-[http://localhost:5000/product/filterby\_name/sweater](http://localhost:5000/product/filterby_name/sweater
-)
+[http://localhost:5000/product/filterByName/sweater](http://localhost:5000/product/filterByName/sweater)
 {% endhint %}
 
 
