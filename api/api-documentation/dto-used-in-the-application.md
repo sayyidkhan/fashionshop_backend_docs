@@ -4,7 +4,7 @@ description: This page aims to list all the DTO used in the Application.
 
 # DTO used in the Application
 
-## **Schema Used: ProductDTO**
+## **ProductDTO**
 
 ```text
 {
@@ -55,7 +55,7 @@ description: This page aims to list all the DTO used in the Application.
   </tbody>
 </table>
 
-## **Schema Used: CreateProductDTO**
+## **CreateProductDTO**
 
 ```text
 {

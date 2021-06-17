@@ -20,7 +20,8 @@ An API which helps to get all the products from the product's table.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Returns a list of productDTO
+Returns a list of productDTO  
+Object Received: ProductDTO \[ \]
 {% endapi-method-response-example-description %}
 
 ```
@@ -83,7 +84,8 @@ Insert a new record into product table.
 {% api-method-response %}
 {% api-method-response-example httpCode=201 %}
 {% api-method-response-example-description %}
-Returns a the new productDTO object
+Returns a the new productDTO object  
+Object Received: ProductDTO
 {% endapi-method-response-example-description %}
 
 ```
@@ -194,7 +196,8 @@ Accepts
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Displays a list of all the products from the database sorted by choice\(s\) selected
+Displays a list of all the products from the database sorted by choice\(s\) selected  
+Object Received: ProductDTO \[\]
 {% endapi-method-response-example-description %}
 
 ```
@@ -251,7 +254,8 @@ any number from one to infinity -&gt; possible values: \( 1 ... n \)the product
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Return 1 productDTO successfully which was searched by ID.
+Return 1 productDTO successfully which was searched by ID.  
+Object Received: ProductDTO
 {% endapi-method-response-example-description %}
 
 ```
@@ -329,7 +333,8 @@ Accepts
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Displays a list of all the products from the database with price filter\(s\) + sorted by choice\(s\) selected.
+Displays a list of all the products from the database with price filter\(s\) + sorted by choice\(s\) selected.  
+Object Received: ProductDTO \[ \]
 {% endapi-method-response-example-description %}
 
 ```
@@ -421,7 +426,7 @@ Accepts
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
 Displays a list of all the products from the database with price filter\(s\) + sorted by choice\(s\) selected.  
-Datatype received: \[ ProductDTO \]
+Object Received: ProductDTO \[ \]
 {% endapi-method-response-example-description %}
 
 ```
@@ -476,7 +481,5 @@ No Product\(s\) found.
 
 
 
-1
-
-
+For checking the **object structure\(DTO\)** that was sent or received via API, do check the [DTO used in the Application page.](dto-used-in-the-application.md)
 
