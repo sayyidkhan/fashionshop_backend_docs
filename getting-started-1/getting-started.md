@@ -69,6 +69,8 @@ this will initialise the database.**
 * run the command below to **create table product** & **insert 500 records** into the table
 
 ```bash
+## from the root directory of the project
+cd database
 node insert_script.js
 ```
 
