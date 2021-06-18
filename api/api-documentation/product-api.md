@@ -223,6 +223,16 @@ Object Received: ProductDTO \[\]
 ]
 ```
 {% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+No Product Found, No Record In Database
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
