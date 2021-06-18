@@ -9,6 +9,10 @@ description: This guide aims to help you to start the node.js application.
 **Possible commands to run listed below to start the application:**  
 Commands to run the application in development mode.
 
+If you would like to start the project without any hassles run: 
+
+_**npm run dev**_
+
 ```bash
 #run the project in development mode with hot reload
 npm run dev
