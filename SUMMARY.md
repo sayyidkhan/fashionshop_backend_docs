@@ -17,8 +17,10 @@
 
 * [API Documentation](api/api-documentation/README.md)
   * [Product API](api/api-documentation/product-api.md)
+  * [Product Pagination API](api/api-documentation/product-pagination-api.md)
   * [DTO used in the Application](api/api-documentation/dto-used-in-the-application.md)
-* [Swagger API](api/swagger-api.md)
+* [Swagger API](api/swagger-api/README.md)
+  * [Swagger API Setup](api/swagger-api/swagger-api-setup.md)
 
 ## Configuration
 
@@ -28,7 +30,10 @@
 
 ## Project Structure
 
-* [Software Design](project-structure/untitled.md)
+* [Software Design](project-structure/untitled/README.md)
+  * [Architectural Pattern](project-structure/untitled/architectural-pattern.md)
+  * [Folder Structure](project-structure/untitled/folder-structure.md)
+  * [Class Diagrams](project-structure/untitled/class-diagrams.md)
 
 ## Database
 

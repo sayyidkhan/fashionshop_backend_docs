@@ -1,8 +1,25 @@
+---
+description: API related to the product pagination API.
+---
+
 # Product API
 
-## Product API
+## How to use Example section of Each API Endpoint ?
 
-All fields are optional. New fiddle setting will be used if no data provided.
+If the application is currently running and records are loaded into the database, clicking on an example will cause the web browser to open a new tab and render the API outcome. 
+
+An Example is shown here below.
+
+{% hint style="info" %}
+**Example:**
+
+[http://localhost:5000/product/](http://localhost:5000/product/pg?currentPage=1&itemPerPage=10
+)
+{% endhint %}
+
+## Using Swagger API UI to test URL endpoints
+
+Alternatively, to **test the API endpoint** u can [**turn on the Swagger API UI**](../swagger-api/) and **test it directly** with the application. 
 
 {% api-method method="get" host="http://localhost:5000" path="/product" %}
 {% api-method-summary %}
@@ -249,7 +266,7 @@ No Product Found, No Record In Database
 [http://localhost:5000/product/sortby?orderByPrice=asc](http://localhost:5000/product/sortby?orderByPrice=asc)
 {% endhint %}
 
-{% api-method method="get" host="http://localhost:5000" path="/filterById/{id}" %}
+{% api-method method="get" host="http://localhost:5000" path="/product/filterById/{id}" %}
 {% api-method-summary %}
 Get One Product by ID Only
 {% endapi-method-summary %}
@@ -307,7 +324,7 @@ No Product\(s\) Found.
 
 
 
-{% api-method method="get" host="http://localhost:5000" path="/filterByPrice" %}
+{% api-method method="get" host="http://localhost:5000" path="/product/filterByPrice" %}
 {% api-method-summary %}
 Get Products by filtering price + sorting
 {% endapi-method-summary %}
@@ -402,7 +419,7 @@ No Product\(s\) found.
 [http://localhost:5000/product/filterByPrice?minprice=10&maxprice=20](http://localhost:5000/product/filterByPrice?minprice=10&maxprice=20)
 {% endhint %}
 
-{% api-method method="get" host="http://localhost:5000" path="/filterByName/{name}" %}
+{% api-method method="get" host="http://localhost:5000" path="/product/filterByName/{name}" %}
 {% api-method-summary %}
 Get Products by filtering name + sorting
 {% endapi-method-summary %}
