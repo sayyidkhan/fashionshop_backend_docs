@@ -18,7 +18,7 @@ It dynamically adds these items into Swagger API page:
 Swagger API is built into the project so starting the application is required in order to view the swagger API for testing or reading the swagger documentation.
 
 1. You have to [start the application](../../getting-started-1/start-the-application.md) first.
-2. navigate to this directory: [http://localhost:5000/swagger-ui/](http://localhost:5000/swagger-ui/)
+2. navigate to this directory: _If the application is currently running on localhost, you can click on the link below and it will navigate to the directory directly._ [http://localhost:5000/swagger-ui/](http://localhost:5000/swagger-ui/)  &lt;---- click here to navigate directly 
 3. Should be welcome with this screen
 
 ![swagger UI home page](../../.gitbook/assets/screenshot-2021-06-16-at-11.42.03-pm.png)
