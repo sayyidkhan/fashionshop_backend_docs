@@ -82,7 +82,7 @@ _This will delete any existing fashionshop database and re-create a new one then
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-4. _**Navigate back to the root directory of the project and run the command below.**_
+5. _**Navigate back to the root directory of the project and run the command below.**_
 
 This wil install all project 
 
