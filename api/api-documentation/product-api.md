@@ -10,6 +10,8 @@ Get All Product
 {% endapi-method-summary %}
 
 {% api-method-description %}
+Get all the records w/o sorting or pagination involved.  
+  
 No parameters are required to be passed in order to use this API.  
 An API which helps to get all the products from the product's table.
 {% endapi-method-description %}
@@ -69,7 +71,9 @@ Insert A New Product Listing
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Insert a new product object that needs to be added to the product listing, no parameters required to be passed.
+Insert a new product object that needs to be added to the product listing,  
+  
+No parameters required to be passed.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -170,6 +174,8 @@ Get All Products + Sorting
 {% endapi-method-summary %}
 
 {% api-method-description %}
+Get all the records + allows single or multiple sorting  
+  
 1. optional to pass {orderByName} -&gt; if passed as PARAM\_QUERY will sort based on possible values  
 2. optional to pass {orderByPrice} -&gt; if passed as PARAM\_QUERY will sort based on possible values  
 3. if multiple sort is specified, then it will be sorted by name then price.  
@@ -249,7 +255,9 @@ Get One Product by ID Only
 {% endapi-method-summary %}
 
 {% api-method-description %}
-get one product by ID, only numbers\(integer\) are accepted. If product ID does not exist, it will return 404 error. Currently data preparation ID's are \(1 - 500\) are valid records. ID 501 and later does not exist unless added. Can use these data for data testing scenarios. 
+get one product by ID, only numbers\(integer\) are accepted.  
+  
+If product ID does not exist, it will return 404 error. Currently data preparation ID's are \(1 - 500\) are valid records. ID 501 and later does not exist unless added. Can use these data for data testing scenarios. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -306,6 +314,7 @@ Get Products by filtering price + sorting
 
 {% api-method-description %}
 get products by filtering price \(within min - max range\) or \(&gt;= min\) or \(&lt;= max\) then sorting  
+  
 1. {minprice} - OPTIONAL\_PARAMETER, query will still work w/o min price input  
 2. {maxprice\) - OPTIONAL\_PARAMETER, query will still work w/o max price input  
 3. optional to pass {orderByName} -&gt; query will still work w/o inputing min or max value  
@@ -400,6 +409,7 @@ Get Products by filtering name + sorting
 
 {% api-method-description %}
 get products by filtering name using the like clause + sorting  
+  
 1. {name\) - REQUIRED PARAMETER, query will search for name of product and returns the product name which has the text name in it  
 2. optional to pass {orderByName} -&gt; query will still work w/o inputing min or max value  
 3. optional to pass {orderByPrice} -&gt; query will still work w/o input min or max value   
