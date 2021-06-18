@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Overview](README.md)
+* [FashionShop Docs](README.md)
 
 ## Getting Started <a id="getting-started-1"></a>
 
 * [Project Setup](getting-started-1/getting-started.md)
-* [Start The Application](getting-started-1/untitled.md)
+* [Start The Application](getting-started-1/start-the-application.md)
 
 ## Project Testcases
 
@@ -25,15 +25,15 @@
 ## Configuration
 
 * [Project Configuration](configuration/project-config.md)
-* [Database Configuration](configuration/untitled.md)
+* [Database Configuration](configuration/database-configuration.md)
 * [CI Configuration](configuration/ci-configuration.md)
 
 ## Project Structure
 
-* [Software Design](project-structure/untitled/README.md)
-  * [Architectural Pattern](project-structure/untitled/architectural-pattern.md)
-  * [Folder Structure](project-structure/untitled/folder-structure.md)
-  * [Class Diagrams](project-structure/untitled/class-diagrams.md)
+* [Software Design](project-structure/software-design/README.md)
+  * [Architectural Pattern](project-structure/software-design/architectural-pattern.md)
+  * [Folder Structure](project-structure/software-design/folder-structure.md)
+  * [Class Diagrams](project-structure/software-design/class-diagrams.md)
 
 ## Database
 
